@@ -7,6 +7,7 @@ public class QuitApp : MonoBehaviour
     // Start is called before the first frame update
     public void CloseApp()
     {
+        Debug.Log("Closing App now");
         Application.Quit();
     }
 }
