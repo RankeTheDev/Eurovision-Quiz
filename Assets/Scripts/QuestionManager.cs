@@ -125,7 +125,7 @@ public class QuestionManager : MonoBehaviour
     public void Reset() //Desactivo paneles de acierto/error
     {
         right.SetActive(false);
-        right.SetActive(false);
+        wrong.SetActive(false);
 
         foreach (Button r in replyButtons) //Reactivo todos los botones de respuesta
         {
