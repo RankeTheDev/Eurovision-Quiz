@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ddb156ace999ba41b0bfdb2bb570660, type: 3}
+  m_Name: QuestionsData_2021
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: "\xBFD\xF3nde se celebr\xF3 la edici\xF3n de 2021 de eurovisi\xF3n?"
+    replies:
+    - "Espa\xF1a"
+    - Paises Bajos
+    - "Ruman\xEDa"
+    - Ucrania
+    correctReplyIndex: 1
+  - questionText: "\xBFQu\xE9 pa\xEDs result\xF3 ganador?"
+    replies:
+    - Italia
+    - Rusia
+    - Lituania
+    - Francia
+    correctReplyIndex: 0
+  - questionText: "\xBFCu\xE1l es el nombre del cantante o grupo ganador?"
+    replies:
+    - Barbara Pravi
+    - 'Tusse '
+    - "M\xE5neskin"
+    - "Blas Cant\xF3 "
+    correctReplyIndex: 2
+  - questionText: "\xBFCu\xE1l es el nombre de la canci\xF3n ganadora?"
+    replies:
+    - 'El Diablo '
+    - 'Zitti E Buoni '
+    - '10 Years '
+    - "Voil\xE0 "
+    correctReplyIndex: 1
