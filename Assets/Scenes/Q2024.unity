@@ -1467,7 +1467,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainMenu
+          m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1346419262
@@ -1695,10 +1695,11 @@ MonoBehaviour:
   - {fileID: 1716157034}
   - {fileID: 1935512896}
   - {fileID: 1070410150}
-  datosPreguntas: {fileID: 11400000, guid: 057edad320e1e3048bc70f11326f208a, type: 2}
+  datosPreguntas: {fileID: 11400000, guid: 5404723242b7597428dd61c95e816fdd, type: 2}
   right: {fileID: 1798151002}
   wrong: {fileID: 1662616093}
   gameFinished: {fileID: 1149829612}
+  score: 0
 --- !u!114 &1583496806
 MonoBehaviour:
   m_ObjectHideFlags: 0
