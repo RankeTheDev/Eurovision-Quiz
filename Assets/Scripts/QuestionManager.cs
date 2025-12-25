@@ -18,7 +18,8 @@ public class QuestionManager : MonoBehaviour
     public GameObject gameFinished; //referencia al pane de juego terminado
 
     int currentQuestion = 0; //para saber en que pregunta estamos
-    static int score = 0; //para almacenar la score del player
+    [Space]
+    public int score = 0; //para almacenar la score del player
 
 
     //METHODS
@@ -97,27 +98,27 @@ public class QuestionManager : MonoBehaviour
 
             float scorePercentage = (float)score / datosPreguntas.questions.Length * 100;
 
-            finalScore.text = "You scored " + scorePercentage.ToString("F0") + "%";
+            finalScore.text = "Obtuviste un porcentaje de aciertos del " + scorePercentage.ToString("F0") + "%";
 
             if(scorePercentage < 50)
             {
-                finalScore.text += "\nGame Over";
+                finalScore.text += "\n\nFin del Juego, más suerte la próxima vez";
             }
             else if (scorePercentage < 60)
             {
-                finalScore.text += "\nKeep Trying";
+                finalScore.text += "\n\nNo está mal, ¡sigue intentándolo!";
             }
             else if (scorePercentage < 70)
             {
-                finalScore.text += "\nGood Job";
+                finalScore.text += "\n\n¡Nada Mal!";
             }
             else if (scorePercentage < 80)
             {
-                finalScore.text += "\nWell Done";
+                finalScore.text += "\n\n¡Bien hecho!";
             }
             else
             {
-                finalScore.text += "\n¡Eres muy inteligente!";
+                finalScore.text += "\n\nNi yo podría hacerlo mejor, aún siendo quien lo programó";
             }
         }
     }
