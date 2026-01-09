@@ -1,4 +1,4 @@
-# Eurovision Guesser 
+# Eurovision Quiz 
 Juego de quiz sobre eurovision.
 
 Por ahora incluye funcionalidades básicas y preguntas sencillas sobre las ediciones de 2021 a 2025.
